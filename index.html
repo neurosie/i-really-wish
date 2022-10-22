@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>squidward meme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'Spongeboy';
+            src: url("SpongeboyRegular.otf") format("opentype");
+        }
+
+        body {
+            max-width: 600px;
+            margin: auto;
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .canvas-wrapper {
+            aspect-ratio: 1/1;
+            outline: 1px solid;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        input {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <input class="user-text" value="living through a major historical event"></input>
+    <div class="canvas-wrapper">
+        <canvas id="canvas" width="600" height="600"></canvas>
+    </div>
+    <script src="script.js"></script>
+
+    <button class="save-button">Save</button>
+</body>
+
+</html>
