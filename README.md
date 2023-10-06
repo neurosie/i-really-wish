@@ -1,4 +1,4 @@
-# i-really-wish
+# "I really wish I weren't ____ right now" meme generator
 
 i was possessed by the urge for squidward meme. 
 
